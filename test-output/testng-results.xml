@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-26T06:30:04Z" name="Suite" finished-at="2023-06-26T06:30:18Z" duration-ms="14317">
+    <groups>
+      <group name="check">
+        <method signature="macbook.Selectmodel()[pri:2, instance:testngAmazon.macbook@7393222f]" name="Selectmodel" class="testngAmazon.macbook"/>
+        <method signature="macbook.buy()[pri:4, instance:testngAmazon.macbook@7393222f]" name="buy" class="testngAmazon.macbook"/>
+        <method signature="macbook.launchUrl()[pri:0, instance:testngAmazon.macbook@7393222f]" name="launchUrl" class="testngAmazon.macbook"/>
+        <method signature="macbook.search(java.lang.String)[pri:1, instance:testngAmazon.macbook@7393222f]" name="search" class="testngAmazon.macbook"/>
+        <method signature="macbook.switchwindow()[pri:3, instance:testngAmazon.macbook@7393222f]" name="switchwindow" class="testngAmazon.macbook"/>
+        <method signature="mobile.Selectmodel()[pri:2, instance:testngAmazon.mobile@1e44b638]" name="Selectmodel" class="testngAmazon.mobile"/>
+        <method signature="mobile.buy()[pri:4, instance:testngAmazon.mobile@1e44b638]" name="buy" class="testngAmazon.mobile"/>
+        <method signature="mobile.launchUrl()[pri:0, instance:testngAmazon.mobile@1e44b638]" name="launchUrl" class="testngAmazon.mobile"/>
+        <method signature="mobile.search()[pri:1, instance:testngAmazon.mobile@1e44b638]" name="search" class="testngAmazon.mobile"/>
+        <method signature="mobile.switchwindow()[pri:3, instance:testngAmazon.mobile@1e44b638]" name="switchwindow" class="testngAmazon.mobile"/>
+      </group> <!-- check -->
+    </groups>
+    <test started-at="2023-06-26T06:30:04Z" name="Test" finished-at="2023-06-26T06:30:18Z" duration-ms="14317">
+      <class name="testngAmazon.mobile">
+        <test-method is-config="true" signature="beforec()[pri:0, instance:testngAmazon.mobile@1e44b638]" started-at="2023-06-26T06:30:04Z" name="beforec" finished-at="2023-06-26T06:30:09Z" duration-ms="5064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforec -->
+        <test-method signature="launchUrl()[pri:0, instance:testngAmazon.mobile@1e44b638]" started-at="2023-06-26T06:30:09Z" name="launchUrl" finished-at="2023-06-26T06:30:12Z" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+      </class> <!-- testngAmazon.mobile -->
+      <class name="testngAmazon.macbook">
+        <test-method is-config="true" signature="beforec()[pri:0, instance:testngAmazon.macbook@7393222f]" started-at="2023-06-26T06:30:12Z" name="beforec" finished-at="2023-06-26T06:30:15Z" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforec -->
+        <test-method signature="launchUrl()[pri:0, instance:testngAmazon.macbook@7393222f]" started-at="2023-06-26T06:30:15Z" name="launchUrl" finished-at="2023-06-26T06:30:18Z" duration-ms="3746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+      </class> <!-- testngAmazon.macbook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

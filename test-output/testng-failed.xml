@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="product" value="mgn63"/>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="check"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testngAmazon.mobile">
+        <methods>
+          <include name="beforec"/>
+          <include name="beforet"/>
+          <include name="launchUrl"/>
+        </methods>
+      </class> <!-- testngAmazon.mobile -->
+      <class name="testngAmazon.macbook">
+        <methods>
+          <include name="launchUrl"/>
+          <include name="beforec"/>
+          <include name="beforet"/>
+        </methods>
+      </class> <!-- testngAmazon.macbook -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
